@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.newmind</groupId>
+    <artifactId>seobackstage-biz</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>seobackstage-biz</name>
+    <description>seobackstage-biz project for Spring Boot</description>
+
+    <parent>
+        <groupId>com.newmind</groupId>
+        <artifactId>seobackstage</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <!--<dependency>
+            <groupId>com.newmind</groupId>
+            <artifactId>seobackstage-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>-->
+
+        <dependency>
+            <groupId>com.newmind</groupId>
+            <artifactId>seobackstage-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
